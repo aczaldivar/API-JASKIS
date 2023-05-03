@@ -3,10 +3,10 @@
 
 // GETTING STARTED
 // 1. Create a database called jaskis
-//clicked green button to create jaskis database
+//clicked green button to fill form to create jaskis database
 
 // 2. Create a collection called bounties
-// db.createCollection("bounties")
+// db.createCollection("bounties") or fill form after pressing green button
 
 // ADD THE ANIMAL BOUNTIES
 // 1. Insert the given "Thanoceros" bounty object
@@ -43,3 +43,4 @@
 // db.bounties.deleteMany({client:"Songbird"})
 
 // 4. Update all captured statuses to true
+// db.bounties.updateMany({captured:false},{$set:{captured:true}})
